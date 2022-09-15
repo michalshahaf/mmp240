@@ -1,8 +1,66 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredoka+One&family=Roboto:wght@300&display=swap');
+
+*{
+margin:0;
+padding:0;
+}
 
 body{
   font-family: 'Roboto', sans-serif;
 
+width: 1100px;
+border: solid #641E16 2px;
+
+color:#641E16;
+margin-left: auto;
+margin-right: auto;
 }
-h1,h2,h2,h3 {font-family:'Fredoka One',cursive;}
+
+div{
+  padding-left: 1em;
+padding-top: 1em;
+background-color: #FAE5D3;
+padding-bottom: 1em;
+}
+
+img{
+  width: 98%;
+  img{
+    width: 100%;
+  }
+
+}
+
+
+h1 h2,h2,h3{
+  font-family:'Amatic sc',cursive;
+font-size: 200%;
+}
+
+p,h2,h3,ul,ol{
+  margin-bottom:1rem;
+}
+
+
+h1{
+background-color: #641E16;
+padding:0.2em;
+text-align: center;
+color: #FEF5E7;
+font-family: 'Amatic sc', cursive;
+font-size: 300%;
+}
+
+ul,ol{
+  padding-left:2em;
+}
+
+.changeToInline {
+  display: inline;
+}
+
+.noPadding{
+  padding:0
+
+}
