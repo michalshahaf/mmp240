@@ -1,28 +1,135 @@
+/* ****** reseting browerser's defaults ****** */
 
+
+*{  /*universal selector selects all elements*/
+  margin-left:0.3em;
+  padding:0;
+  border:none;
+
+}
 #wrapper{
 max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
  header{
 height: 432px;
-padding:1em 2em 2em 2em;
-
+padding:1em 2em 2em 3em;
+  font-family: sans-serif,inter;
 background:
 linear-gradient(90deg, rgba(0,0,0,1) 0%,
 rgba(0,0,0,1) 48%, rgba(0,0,0,0) 55%, rgba(255,255,255,0) 100%),
 url("images/bg.jpg") no-repeat top right;
-
+ }
+/* color:black;
+ text-decoration: none;
  }
 
-header p, #watch{
+ a:visited{
+ color:black;
+ text-decoration: none;
+ }
+
+ a:hover{
+ color:darkRed;
+ text-decoration: underline;
+ }
+
+ a:active{
+ color:darkRed;
+ text-decoration: underline;
+ }
+*/
+header a{
+color:white;
+
+text-decoration: none;
+border: solid 5px darkRed;
+border-radius: 5px;
+padding:5px 10px;
+margin-top: 4em;
+margin-left: 2em;
+display: inline-block;
+font-size: 1.3em;
+background-color: darkRed;
+}
+#watch:hover{
+background-color: grey;
+border:solid 5px grey;
+text-decoration: underline;}
+
+svg{
+margin-right: 0.5em;
+
+}
+header p{
 width:250px;
 color:white;
-padding-left:8em;
 padding-top:1em;
-font-family: sans-serif,inter;
 }
 
-h1 img {margin-left: 3em;
-margin-top: 1em;}
+h1 img {margin-left: -0.5em;
+margin-top: 0.5em;}
+
+nav{
+  background-color: lightGrey;
+  padding-left:3em;
+  padding:0.5em;
+  margin-bottom: 1em;
+}
+
+nav li{
+display:inline-block;
+margin-left:1em;
+font-size: 1em;
+font-family: sans-serif,inter;
+padding-left: 1em;
+border-right:solid 1px black;
+padding-right: 2em;
+
+}
+
+nav li:last-child{
+  border:none;
+}
+
+nav a{
+  color:black;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:darkRed;
+text-decoration:underline;
+}
+
+.col{
+  width:50%;
+  float:left;
+  margin-right: 2%;
+}
+
+footer{clear:both;
+padding:2em;
+  font-family: sans-serif,inter;
+margin-left: 15em;
+}
+
+
+.col:last-child{
+  marging-right:0;
+
+
+}
+#watch{
+  margin:0em;
+  margin-top: 2em;
+}
+
+main{
+  padding:2em;
+  padding-top: 1em;
+    font-family: sans-serif,inter;
+}
