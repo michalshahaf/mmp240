@@ -76,7 +76,9 @@ color:white;
 font-size: 1em;
 line-height: 2em;
 margin-bottom: -1em;
-
+width:45%;
+display: flex;
+flex-wrap: wrap;
 
 }
 
