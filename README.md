@@ -5,4 +5,5 @@ https://michalshahaf.github.io/mmp240/index.html <br>
 https://michalshahaf.github.io/mmp240/midterm.html/index.html (midterm website)<br>
 https://michalshahaf.github.io/mmp240/exercise4/exercise4.html (exercise 4)<br>
 https://michalshahaf.github.io/mmp240/exercise5/exercise5.html (exercise 5)<br>
-https://michalshahaf.github.io/mmp240/exercise6.html (exercise 6)
+https://michalshahaf.github.io/mmp240/exercise6.html (exercise 6) <br>
+https://michalshahaf.github.io/mmp240/exercise7.html (exercise 7)
