@@ -1,0 +1,284 @@
+*{
+  margin:0;
+  padding:0;
+  border:none;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+  margin:1em;
+}
+
+#wrapper{
+max-width: 1200px;
+margin:0 auto;
+position:relative;
+}
+
+p, h1, h2,h3,nav, article, footer{
+  margin-bottom: 1em;
+    color:#04056A;
+}
+h2{
+  color:#D35400 ;
+}
+
+
+.button{
+ padding:0.5em;
+  background-color:#E56900;
+  color:#fff;
+  border-radius:10px;
+  text-decoration: none;
+  transition: all 0.2s ;
+
+}
+
+.button:hover{
+  background-color: #04056A;
+  color:#fff;
+  transform:scale(1.05);
+}
+
+main a{
+  color:#04056A;
+
+}
+
+.events a, header a{
+    color:#04056A;
+  text-decoration: none;
+}
+
+
+ a:visited{
+ color:#040560;
+ text-decoration: none;
+ }
+
+a:hover{
+  color:#E56900;
+}
+
+.img-responsive{
+  width:100%;
+}
+
+/*header nav*/
+header{
+  display:flex;
+  justify-content: space-between;
+  color:#041185;
+}
+
+#dropmenu{
+position:absolute;
+border:solid 1px lightgrey;
+padding:0.5em;
+background-color: #fff;
+text-align: right;
+display:none;
+right:0;
+
+}
+
+#dropmenu ul{
+  list-style-type: none;
+}
+
+#dropmenu li{
+  padding:0.5em 1em;
+
+}
+
+#dropmenu input{
+  border:solid 1px grey;
+  padding:5px;
+}
+
+ #dropmenu li:hover ul{
+  display:block;
+}
+
+.search-program strong a{
+  color:#041185;
+padding:0em;
+background-color: #E5E7E9;
+ padding:0.5em;
+}
+
+.search-program a{
+  text-decoration: none;
+  color:#3542B8;
+  font-weight:600;
+  padding:0.5em;
+  display:block;
+}
+
+.search-program li{
+  text-align: center;
+  /*border: solid 1px grey; */
+    list-style-type: none;
+}
+
+
+.search-program li ul{
+  list-style-type: none;
+  background-color: lightgrey;
+  display:none;
+}
+
+.search-program li:hover ul{
+  display:block;
+}
+
+.search-program img{
+  width:24px;
+  margin-bottom:-6px;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.search-program li:hover img{
+  transform: rotate(180deg);
+
+}
+
+ .banner h2{
+  color: #fff;
+  background-color: hsla(180, 24%, 12%, .5);
+  padding:0.5em;
+}
+
+/* banner styles  */
+.banner{
+  margin-top: 2em;
+  position:relative;
+  margin-bottom:2em;
+  background-size:cover;
+  padding:1em;
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+
+
+/*   main styles   */
+main ul{
+  list-style-type: none;
+}
+
+.card-link{
+  color:#000;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.card-link:hover{
+  transform:scale(1.05);
+  box-shadow:5px 5px 10px #888;
+}
+
+.program-card  img {
+    height: 100px;
+    object-fit: cover;}
+
+
+.program-card h3{
+color:#D35400;
+}
+
+.program-card h3{
+margin-top:0.3em;
+margin-bottom: 0.5em;
+}
+
+
+footer{
+padding-top: 2em;
+}
+
+
+
+@media (min-width:768px){
+  #dropmenu{
+display:flex;
+position:static;
+border:none;
+}
+
+#dropmenu ul{
+display:flex;
+}
+
+.menu-icon{
+  display:none;
+}
+
+.program-menu {
+  display:flex;
+  justify-content: space-between;
+
+
+}
+
+.program-menu li{
+  width:30%;
+  position:relative;
+
+}
+
+.program-menu li ul{
+  position:absolute;
+  left:-1px;
+  width:100%;
+  z-index:100;
+}
+
+.program-menu li ul li{
+  background-color:#fff;
+
+}
+.program-menu li ul li:hover{
+  background-color:#FF8722;
+}
+
+.program-menu li ul li:active{
+background-color:#FF8722;
+}
+
+.program-menu li li{
+  width:100%;
+}
+
+/* main layout */
+
+main{
+  display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 1em;
+}
+
+.news {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/* program pages */
+
+.programs-title{
+  grid-column-start:1;
+  grid-column-end:5;
+}
+
+.banner{
+  margin-top: 2em;
+  position:relative;
+  margin-bottom:2em;
+  background-size:cover;
+  padding:4em;
+  margin-left:0.5em;
+  margin-right:0.5em;
+
+}
+
+
+}
