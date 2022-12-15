@@ -1,10 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@300&family=Roboto&family=Shadows+Into+Light&family=Varela+Round&family=Work+Sans:wght@300&display=swap');
+
 *{
   margin:0;
   padding:0;
   border:none;
 }
 body{
-  font-family: 'Work Sans', sans-serif;
+  font-family: sans-serif;
   margin:1em;
 }
 header h1{
